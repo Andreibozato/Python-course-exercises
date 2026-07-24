@@ -1,5 +1,3 @@
-from stat import FILE_ATTRIBUTE_NO_SCRUB_DATA
-from tkinter.filedialog import dialogstates
 
 #Exercicio 5 - Programa que lê um número inteiro e mostra seu antecessor e sucessor:
 
