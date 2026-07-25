@@ -191,3 +191,58 @@ This repository brings together my solutions to the challenges proposed by profe
   - **Code Logic:** Application of the pygame.mixer library to initialize the mixer, load the MP3 file, set the volume, start playback, and wait in a loop while the music is playing.
   - **File:** [`Exercicios16a21.py`](./Exercicios16a21.py)
 </details>
+
+### 22. Exercise 22 Name analysis
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads a person's full name and displays: the name in all uppercase and lowercase letters; how many total letters (excluding spaces); how many letters the first name has.
+  - **Objective:** Analyzes and displays information about the provided full name, such as uppercase/lowercase versions, total count of alphabetic characters, and the length of the first name.
+  - **Simulated Interface:** The user inputs a string (full name) via the keyboard; the program displays: name in uppercase (red), name in lowercase (yellow), total letters without spaces (blue), and number of letters in the first name (purple).
+  - **Code Logic:** Application of string methods (upper(), lower(), replace(), split()) and the len() function for character manipulation and counting.
+  - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
+</details>
+
+### 23. Exercise 23 Separate digits
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads a number from 0 to 9999 and displays each of its digits separately on the screen.
+  - **Objective:** Decomposes an integer into its individual digits (unit, ten, hundred, and thousand) and displays them separately.
+  - **Simulated Interface:** The user inputs an integer between 0 and 9999; the program displays each digit in distinct colors: unit (red), ten (yellow), hundred (green), and thousand (blue).
+  - **Code Logic:** Application of integer division and modulo operations (// and %) to extract each digit, using powers of 10 (1, 10, 100, 1000).
+  - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
+</details> 
+
+### 24. Exercise 24 City santo
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads the name of a city and states whether or not it starts with the name "SANTO".
+  - **Objective:** Checks whether the first five characters of the city name (in uppercase) match the word "SANTO".
+  - **Simulated Interface:** The user inputs a string (city name); the program displays a boolean value (True/False) indicating whether the city starts with "SANTO", highlighted in red.
+  - **Code Logic:** Application of string slicing (city[:5]), conversion to uppercase (upper()), and comparison with the string "SANTO" to obtain the boolean result.
+  - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
+</details> 
+
+## 25. Exercise 25 Check silva
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads a person's name and states whether or not they have "SILVA" in their name.
+  - **Objective:** Checks whether the substring "silva" (in lowercase) is present anywhere within the provided full name.
+  - **Simulated Interface:** The user inputs a string (full name); the program displays a boolean value (True/False) indicating whether "silva" is contained in the name, highlighted in red.
+  - **Code Logic:** Application of the in operator to check for the presence of the substring, after converting the name to lowercase using lower().
+  - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
+</details> 
+
+## 26. Exercise 26 Letter a count
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads a sentence from the keyboard and displays how many times the letter "A" appears, what position it appears in for the first time, and what position it appears in for the last time.
+  - **Objective:** Counts the number of occurrences of the letter 'A' (regardless of uppercase/lowercase) in a sentence, and locates its first and last positions (using 1-based indexing).
+  - **Simulated Interface:** The user inputs a sentence (string); the program displays the total count of 'A's, the position of the first occurrence (yellow), and the position of the last occurrence (blue), with positions adjusted to start at 1.
+  - **Code Logic:** Application of string methods: upper() to standardize all letters to uppercase, count('A') for counting, find('A') for the first position, and rfind('A') for the last position, adding 1 to each index for 1-based display.
+  - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
+</details> 
