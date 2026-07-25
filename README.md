@@ -124,3 +124,70 @@ This repository brings together my solutions to the challenges proposed by profe
   - **Code Logic:** Application of multiplication and addition to combine the daily cost (days × 60) and the distance cost (km × 0.15).
   - **File:** [`Exercicios5a15.py`](./Exercicios5a15.py)
 </details>
+
+
+### 16. Exercise 16 Integer portion
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads any Real number and displays its Integer portion.
+  - **Objective:** Extracts and displays the integer part of a decimal number provided by the user.
+  - **Simulated Interface:** The user inputs a real number (float) via the keyboard; the program displays the original number and its integer part (using integer division by 1) highlighted in blue.
+  - **Code Logic:** Application of integer division (//) by 1 to truncate the decimal part and retrieve only the integer value.
+  - **File:** [`Exercicios16a21.py`](./Exercicios16a21.py)
+</details>
+
+### 17. Exercise 17 Hypotenuse
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads the length of the opposite leg and adjacent leg of a right triangle, then calculates and displays the length of the hypotenuse.
+  - **Objective:** Calculates the hypotenuse of a right triangle using the Pythagorean Theorem (h = √(ca² + co²)).
+  - **Simulated Interface:** The user inputs the values of the two legs (integers); the program displays the value of the hypotenuse with two decimal places, highlighted in red.
+  - **Code Logic:** Application of exponentiation (squaring), addition, and square root (raising to the power of 0.5) to calculate the hypotenuse.
+  - **File:** [`Exercicios16a21.py`](./Exercicios16a21.py)
+</details>
+
+### 18. Exercise 18 Sine cosine tangent
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads any angle and displays the sine, cosine, and tangent values of that angle on the screen.
+  - **Objective:** Calculates and displays the sine, cosine, and tangent of an angle provided in degrees, showing only the integer part (truncated) of each value.
+  - **Simulated Interface:** The user inputs a real number (angle in degrees); the program displays the values of sine (yellow), cosine (green), and tangent (blue), all truncated to integers (using integer division by 1).
+  - **Code Logic:** Application of the math library to convert degrees to radians (math.radians), calculation of trigonometric functions (math.sin, math.cos, math.tan), and truncation using integer division (//1).
+  - **File:** [`Exercicios16a21.py`](./Exercicios16a21.py)
+</details>
+
+### 19. Exercise 19 Student draw
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads the names of students and displays the name of the chosen one.
+  - **Objective:** Randomly draws one student from four names provided by the user.
+  - **Simulated Interface:** The user inputs the names of four students (strings) via the keyboard; the program displays the drawn student's name highlighted in yellow.
+  - **Code Logic:** Application of the choice() function from the random library to randomly select an element from a list containing the four names.
+  - **File:** [`Exercicios16a21.py`](./Exercicios16a21.py)
+</details>
+
+### 20. Exercise 20 Drawn order
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads the names of four students and displays the drawn order.
+  - **Objective:** Randomly shuffles the list of students and displays the new presentation order.
+  - **Simulated Interface:** The program uses the student list already registered (from the previous exercise) and displays the shuffled order highlighted in blue.
+  - **Code Logic:** Application of the shuffle() function from the random library to randomly permute the elements of the student list.
+  - **File:** [`Exercicios16a21.py`](./Exercicios16a21.py)
+</details>
+
+### 21. Exercise 21 Play music
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** A program that plays music using the pygame library.
+  - **Objective:** Plays an audio file (house_lo.mp3) and keeps the program running until the music finishes.
+  - **Simulated Interface:** The program receives no user input; it only plays the audio and displays no formatted output on the screen (execution is silent, only playing the music).
+  - **Code Logic:** Application of the pygame.mixer library to initialize the mixer, load the MP3 file, set the volume, start playback, and wait in a loop while the music is playing.
+  - **File:** [`Exercicios16a21.py`](./Exercicios16a21.py)
+</details>
