@@ -225,7 +225,7 @@ This repository brings together my solutions to the challenges proposed by profe
   - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
 </details> 
 
-## 25. Exercise 25 Check silva
+### 25. Exercise 25 Check silva
 <details>
   <summary><b>Click to expand project details</b></summary>
   
@@ -236,7 +236,7 @@ This repository brings together my solutions to the challenges proposed by profe
   - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
 </details> 
 
-## 26. Exercise 26 Letter a count
+### 26. Exercise 26 Letter a count
 <details>
   <summary><b>Click to expand project details</b></summary>
   
@@ -244,5 +244,16 @@ This repository brings together my solutions to the challenges proposed by profe
   - **Objective:** Counts the number of occurrences of the letter 'A' (regardless of uppercase/lowercase) in a sentence, and locates its first and last positions (using 1-based indexing).
   - **Simulated Interface:** The user inputs a sentence (string); the program displays the total count of 'A's, the position of the first occurrence (yellow), and the position of the last occurrence (blue), with positions adjusted to start at 1.
   - **Code Logic:** Application of string methods: upper() to standardize all letters to uppercase, count('A') for counting, find('A') for the first position, and rfind('A') for the last position, adding 1 to each index for 1-based display.
+  - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
+</details> 
+
+### 27. Exercise 27 First last name
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads a person's full name, then displays the first and last name separately.
+  - **Objective:** Extracts and displays only the first name and the last name from a provided full name.
+  - **Simulated Interface:** The user inputs a string (full name); the program displays the first name (red) and the last name (blue), obtained by splitting the string into parts.
+  - **Code Logic:** Application of the split() method to break the name into a list of words, accessing the first element (index 0) and the last element (index -1 or list length minus 1).
   - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
 </details> 
