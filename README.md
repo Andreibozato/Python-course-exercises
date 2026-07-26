@@ -257,3 +257,47 @@ This repository brings together my solutions to the challenges proposed by profe
   - **Code Logic:** Application of the split() method to break the name into a list of words, accessing the first element (index 0) and the last element (index -1 or list length minus 1).
   - **File:** [`Exercicios22a27.py`](./Exercicios22a27.py)
 </details> 
+
+### 28. Exercise 28 Guessing game
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** A program that makes the computer "think" of an integer between 0 and 5 and asks the user to try to guess which number was chosen by the computer.
+  - **Objective:** Simulates a guessing game where the computer generates a random number and the user tries to guess it, comparing the inputs.
+  - **Simulated Interface:** The user inputs an integer (guess); the program displays a "PROCESSING..." message with a 2-second pause, then informs whether the user won (in green) or lost (in red), revealing the chosen number.
+  - **Code Logic:** Application of random number generation with randint(), use of the sleep() function to simulate processing, and an if/else conditional structure to compare the user's guess with the generated number.
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
+
+### 29. Exercise 29 Speed fine
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads the speed of a car. (If it exceeds 80 km/h, the driver was fined. The fine will cost R$7.00 for each km over the limit).
+  - **Objective:** Checks whether the provided speed exceeds the 80 km/h limit and, if so, calculates the fine amount (R$7.00 per km over the limit).
+  - **Simulated Interface:** The user inputs an integer value (speed in km/h); the program displays "Ok" in green if within the limit, or a fine message and the total amount (in red) calculated based on the speed excess.
+  - **Code Logic:** Application of an if/else conditional structure to compare the speed with the limit; in case of excess, calculates the difference and multiplies by 7 to obtain the fine amount.
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
+
+### 30. Exercise 30 Even odd
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads the speed of a car. (If it exceeds 80 km/h, the driver was fined. The fine will cost R$7.00 for each km over the limit).
+  - **Objective:** Classifies an integer as even or odd based on the remainder of its division by 2.
+  - **Simulated Interface:** The user inputs an integer; the program displays "even" in yellow if the number is divisible by 2, or "odd" in red otherwise.
+  - **Code Logic:** Application of the modulo operator (%) to get the remainder of division by 2 and an if/else conditional structure to determine the classification.
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
+
+### 31. Exercise 31 Travel price
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that asks the distance of a trip in km. Calculate the ticket price, charging R$0.50 per km for trips up to 200 km and R$0.45 for longer trips.
+  - **Objective:** Calculates ticket cost based on distance, applying a discounted rate for distances over 200 km.
+  - **Simulated Interface:** The user inputs an integer value (distance in km); the program displays the total ticket price (in reais, highlighted in green) using the appropriate rate (0.50 for up to 200 km, 0.45 for above).
+  - **Code Logic:** Application of an if/else conditional structure to select the rate based on distance and multiply by the corresponding value.
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
