@@ -301,3 +301,14 @@ This repository brings together my solutions to the challenges proposed by profe
   - **Code Logic:** Application of an if/else conditional structure to select the rate based on distance and multiply by the corresponding value.
   - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
 </details> 
+
+### 32. Exercise 32 Leap year
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads any year and states whether it is a leap year.
+  - **Objective:** Determines whether a provided year (or the current year) is a leap year based on the rules: divisible by 4, not by 100, or divisible by 400.
+  - **Simulated Interface:** The user inputs a year (integer) or 0 to use the current year; the program displays whether the year is a leap year (green) or not (red).
+  - **Code Logic:** Application of the datetime library to retrieve the current year, using conditionals with logical operators (and, or) to apply leap year rules.
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
