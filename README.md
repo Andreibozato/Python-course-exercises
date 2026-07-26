@@ -312,3 +312,36 @@ This repository brings together my solutions to the challenges proposed by profe
   - **Code Logic:** Application of the datetime library to retrieve the current year, using conditionals with logical operators (and, or) to apply leap year rules.
   - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
 </details> 
+
+### 33. Exercise 33 Largest smallest
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads three numbers and shows which is the largest and which is the smallest.
+  - **Objective:** Identifies and displays the smallest and largest values among three provided numbers.
+  - **Simulated Interface:** The user inputs three integers; the program displays the smallest value (in red) and the largest value (in green).
+  - **Code Logic:** Application of conditional structures with comparisons to determine the smallest and largest among the three numbers, storing them in variables and updating as necessary.
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
+
+### 34. Exercise 34 Salary increase
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** A program that asks for an employee's salary and calculates their raise amount. For salaries above R$1250.00, calculate a 10% raise. For salaries less than or equal to that, the raise is 15%.
+  - **Objective:** Calculates the new salary after applying a percentage increase based on whether the original salary exceeds a given threshold (R$1250.00).
+  - **Simulated Interface:** The user inputs an integer (salary in reais); the program displays the updated salary (in reais, highlighted in green) after applying either a 10% or 15% increase.
+  - **Code Logic:** Application of an if/else conditional structure to compare the salary against R$1250 and apply the corresponding percentage raise calculation (sal + sal * percentage / 100).
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
+
+### 35. Exercise 35 Check triangle
+<details>
+  <summary><b>Click to expand project details</b></summary>
+  
+  - **Task:** Program that reads the length of three lines and tells the user whether or not they can form a triangle.
+  - **Objective:** Checks whether three line segments satisfy the triangle inequality theorem (the sum of any two sides must be greater than the third side).
+  - **Simulated Interface:** The user inputs three integers (lengths of the line segments); the program displays "can form" in green or "cannot form" in red.
+  - **Code Logic:** Application of a compound conditional structure with logical operators (and) to test all three triangle inequalities simultaneously.
+  - **File:** [`Exercicios28a35.py`](./Exercicios28a35.py)
+</details> 
