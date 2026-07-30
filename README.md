@@ -1,5 +1,5 @@
 # 🐍 Python Exercises - Mundo 1 - Curso em Vídeo (Gustavo Guanabara)
-This repository brings together my solutions to the challenges proposed by professor Gustavo Guanabara of the renowned Python in the Mundo 1 course from the Curso em Vídeo channel.
+This repository brings together my solutions to the challenges proposed by professor Gustavo Guanabara of the renowned Python (Mundo 1) course from the Curso em Vídeo channel.
 
 
 ## List of Exercise ( Challenges)
