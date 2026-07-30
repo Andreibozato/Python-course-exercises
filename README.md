@@ -1,6 +1,14 @@
 # 🐍 Python Exercises - Mundo 1 - Curso em Vídeo (Gustavo Guanabara)
 This repository brings together my solutions to the challenges proposed by professor Gustavo Guanabara of the renowned Python (Mundo 1) course from the Curso em Vídeo channel.
 
+## 📂 How to test the code?
+
+To run any of the exercises, follow these simple instructions:
+
+1. Have Python 3 installed on your computer.
+2. Copy the code written in the files inside this repository.
+3. Paste the code directly into your terminal or into any Python-supported IDE/software of your choice (such as VS Code, PyCharm, IDLE, or Jupyter Notebook) and press the Play (Run) button.
+4. Follow the on-screen prompts in the console/terminal (some exercises will ask you to enter numbers, names, or select options).
 
 ## List of Exercise ( Challenges)
 
