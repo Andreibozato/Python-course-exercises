@@ -10,7 +10,7 @@ To run any of the exercises, follow these simple instructions:
 3. Paste the code directly into your terminal or into any Python-supported IDE/software of your choice (such as VS Code, PyCharm, IDLE, or Jupyter Notebook) and press the Play (Run) button.
 4. Follow the on-screen prompts in the console/terminal (some exercises will ask you to enter numbers, names, or select options).
 
-## List of Exercise ( Challenges)
+## List of Exercise (31 Challenges)
 
 ### 05. Exercise 05 Predecessor successor
 <details>
